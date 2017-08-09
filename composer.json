@@ -19,11 +19,8 @@
     "php": ">=5.5"
   },
   "autoload": {
-    "psr-0": {
-      "Popov\\ZfcSparkPost": "src/"
-    },
-    "classmap": [
-      "./Module.php"
-    ]
+    "psr-4": {
+      "Popov\\ZfcSparkPost\\": "src/"
+    }
   }
 }
