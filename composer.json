@@ -1,0 +1,29 @@
+{
+  "name": "popov/zfc-sparkpost",
+  "description": "Adapter for sending messages through SparkPost service",
+  "type": "zf-module",
+  "license": "MIT",
+  "keywords": [
+    "zf2",
+    "sparkpost"
+  ],
+  "authors": [
+    {
+      "name": "Sergiy Popov",
+      "email": "popow.sergiy@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "psr-0": {
+      "Popov\\ZfcSparkPost": "src/"
+    },
+    "classmap": [
+      "./Module.php"
+    ]
+  }
+}
