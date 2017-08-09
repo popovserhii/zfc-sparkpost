@@ -3,12 +3,8 @@ namespace Popov\ZfcSparkPost;
 
 return [
     'service_manager' => [
-        'aliases' => [
+        'invokables' => [
             'SparkpostTransport' => Transport\SparkPost::class,
         ],
-        'factories' => [
-            Transport\SparkPost::class => Transport\Factory\SparkPostFactory::class
-        ],
     ],
-
 ];
